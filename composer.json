@@ -4,6 +4,9 @@
     "description": "A PHP client for the Salesforce SOAP API",
     "keywords": [ "salesforce", "crm", "soap", "force.com", "web services" ],
     "license": "MIT",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/michalhepner/phpforce-common" }
+    ],
     "authors": [
         {
             "name": "David de Boer",
@@ -13,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "phpforce/common": "dev-master",
+        "michalhepner/phpforce-common": ">=1.0",
         "psr/log": "*"
     },
     "require-dev": {
